@@ -1,0 +1,20 @@
+What is Topological Sort?Explain with Example.
+
+Topological  Sort : Topological sorting is a graph sorting algorithm that sort the nodes of graph.
+For example : 
+Topological sort can be useful for any scheduling. for example if we want to schedule some cources for
+a technology.
+
+A--->B--->C 
+ \   |    /
+  \  |   /
+   \ |  /
+    >D<
+here  in this directed graph suppose node A,B,C,D are 4 subjects in 
+a department.its also a dependency graph. here in this graph one node is depend on another node.
+If we want to do course B then first we have to finished course A then if we want to do course C then before we have to finished 
+both Course A and B. and if we want to do course D then first we have to finish course A,B and C.
+we can create a schedule of Course by this algorithm.
+
+
+b ) A Topological sort cannot be implemented in a Directed Cyclic graph. n a DCG, there is at least one cycle, which means that it is impossible to find a vertex with no incoming edges

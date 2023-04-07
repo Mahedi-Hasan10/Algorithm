@@ -1,0 +1,5 @@
+Some limitaiton of Dijkstra algorithm
+
+We need to always set the distance of source node as 0.
+Its work only non-negative edge weight
+It can't work on cycleic graph. its only work in asyclic graph.
